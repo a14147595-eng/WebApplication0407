@@ -17,6 +17,7 @@
 
 ## 如果是admin登入
 可以編輯筆記
+admin 帳密為 admin,1234(我將其直接insert into在資料庫裡)
 <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/cd17a009-2d95-4d83-bb93-a94f1320d79a" />
 
 
