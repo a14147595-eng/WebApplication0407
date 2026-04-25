@@ -6,19 +6,17 @@
 
 ---
 # 畫面截圖
- ##註冊
- 進去後會看有無session資料 若無則跳到註冊頁面
- 帳密用if 檢查不能為空
- 使用者名稱
+ ## 註冊
 <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/7fe49d02-9435-4460-ba18-c9b90673fadf" />
- ##登入畫面
+ ## 登入畫面
  <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/f0bc8479-09d1-40a6-b054-3bc8e7c92395" />
- ##首頁
+ ## 首頁
  <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/5dab861a-745c-4f99-bbc7-1964890f56e7" />
- ##查看筆記
+ ## 查看筆記
 <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/bebed3b4-e109-4a97-96be-4ff546124133" />
 
-##如果是admin登入
+## 如果是admin登入
+可以編輯筆記
 <img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/cd17a009-2d95-4d83-bb93-a94f1320d79a" />
 
 
