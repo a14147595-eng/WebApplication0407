@@ -48,7 +48,7 @@ namespace WebApplication0407.Controllers
             if (string.IsNullOrEmpty(model.Username) || string.IsNullOrEmpty(model.Password))
             {
                 ViewBag.Error = "password or username cant be empty";
-                return View(model);
+                return View("Login", model);
             }
 
             var user = _productContext.Users.FirstOrDefault(u => u.Username == model.Username);
@@ -67,7 +67,7 @@ namespace WebApplication0407.Controllers
           
             
             ViewBag.Error = "username or password incorrect";
-            return View();
+            return View("Login", model);
         }
         public IActionResult Logout()
         {
