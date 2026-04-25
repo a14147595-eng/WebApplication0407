@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model WebApplication0407.Models.User;
+@{
+    
+}
+<div>
+    <form method="post" asp-controller="Account" asp-action="Register">
+        <h2>註冊</h2>
+        <div class="mb-3 mt-3">
+            <label for="enteruser" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="enteruser" placeholder="Must enter unique username" asp-for="Username" />
+            <span asp-validation-for="Username"> </span>
+        </div>
+        <div class="mb-3">
+            <label for="enterpassword" class="form-label">Password:</label>
+            <input type="password" class="form-control"  id="enterpassword" placeholder="Enter password" asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <p class="text-danger">* if u already had a account please login</p>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+        @if(ViewBag.ReError != null)
+            {
+            <p class="text-danger">@ViewBag.ReError</p>
+            }
+        </form>
+</div>
