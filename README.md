@@ -42,7 +42,7 @@ admin 帳密為 admin,1234(我將其直接insert into在資料庫裡)
 * 僅 admin 可進行刪除等敏感操作
 * 前端與後端皆進行權限檢查
 
-### 產品管理（CRUD）
+### 筆記管理（CRUD）
 
 * 新增（Create）
 * 檢視（Read）
